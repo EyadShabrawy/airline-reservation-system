@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>signup_bg.jpg</file>
+        <file>Emirates-Airlines-EK.jpg</file>
+        <file>google_signin.png</file>
+        <file>google_button.png</file>
+    </qresource>
+</RCC>

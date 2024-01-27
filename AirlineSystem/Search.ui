@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SearchWindow</class>
+ <widget class="QMainWindow" name="SearchWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>590</width>
+    <height>225</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>590</width>
+    <height>225</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Airline System | Search</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="maximumSize">
+    <size>
+     <width>587</width>
+     <height>208</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="font">
+         <font>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Search for flights</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QFormLayout" name="formLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Departure Airport</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>Arrival Airport</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>Departure Date (ex. 23/05/2023)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="deptDate"/>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>Maximum Price (ex. $200)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="maxPrice"/>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>Sort By</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QComboBox" name="sort">
+          <item>
+           <property name="text">
+            <string>Price</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Duration</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QComboBox" name="deptAirport">
+          <item>
+           <property name="text">
+            <string>CAI</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LAX</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DXB</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>RUH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JED</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DOH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>MAD</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>BCN</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QComboBox" name="arrAirport">
+          <item>
+           <property name="text">
+            <string>LAX</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CAI</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DXB</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>RUH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JED</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DOH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>MAD</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>BCN</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="searchBtn">
+        <property name="text">
+         <string>Search</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="AirlineSystem.qrc"/>
+ </resources>
+ <connections/>
+</ui>
