@@ -1,7 +1,6 @@
 # Airline Reservation System
 
-<img src="https://i.imgur.com/I5aQXeb.png"/>
-<img src="https://i.imgur.com/dbztZcg.png"/>
+<img src="https://i.imgur.com/I5aQXeb.png"/> <img src="https://i.imgur.com/dbztZcg.png"/>
 
 ## Introduction
 
