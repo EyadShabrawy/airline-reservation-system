@@ -58,13 +58,10 @@ Welcome to the Airline Reservation System project. This application is developed
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 
 - Thanks to everyone who contributed to this project.
 - Special thanks to the Qt community and MySQL developers.
 
-## Contact
-
-For queries or suggestions, contact [Eyad](eyad_elshabrawy@outlook.com).
